@@ -7,7 +7,7 @@ const HomePage = () => {
       <div className="container">
         <div className="row">
           <div className="col-4">
-            <Link to="/task1">
+            <Link to="/coordinate">
               <div class="card">
                 <img src="/images/task1.jpg" alt="Task 1" className="card-img-top p-0" style={{ height: "200px", objectFit: "contain" }} />
                 <div class="card-body">
@@ -17,7 +17,7 @@ const HomePage = () => {
             </Link>
           </div>
           <div className="col-4">
-            <Link to="/task2">
+            <Link to="/polygons">
               <div class="card">
                 <img src="/images/task2.jpg" alt="Task 2" className="card-img-top p-0" style={{ height: "200px", objectFit: "contain" }} />
                 <div class="card-body">

@@ -11,8 +11,8 @@ const App = () => {
     <div>
       <Routes>
         <Route path="/" element={<Dashboard />} />
-        <Route path="/task1" element={<Task1 />} />
-        <Route path="/task2" element={<Task2 />} />
+        <Route path="/coordinate" element={<Task1 />} />
+        <Route path="/polygons" element={<Task2 />} />
         <Route path="/task3" element={<Task3 />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
