@@ -17,7 +17,7 @@ const Task2 = () => {
   return (
     <div className="task__2">
       <div className="container">
-        <p className="task__title">Leaflet yoki Mapbox dan foydalangan holda ixtiyoriy polygon chizish va ularni o'zgartirish</p>
+        <p className="task__title">Leafletdan foydalangan holda ixtiyoriy polygon chizish va ularni o'zgartirish</p>
         <MapContainer className="map__container" center={defaultLocation} zoom={13} style={{ height: "400px", width: "100%" }}>
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <FeatureGroup ref={featureGroupRef}>

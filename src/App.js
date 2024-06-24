@@ -5,6 +5,7 @@ import Task1 from "./pages/task1";
 import Task2 from "./pages/task2";
 import Task3 from "./pages/task3";
 import NotFound from "./pages/not_found";
+import RealTimeMap from "./pages/real_time_map/RealTimeMap";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
         <Route path="/" element={<Dashboard />} />
         <Route path="/coordinate" element={<Task1 />} />
         <Route path="/polygons" element={<Task2 />} />
-        <Route path="/task3" element={<Task3 />} />
+        <Route path="/real_time_map" element={<RealTimeMap />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
