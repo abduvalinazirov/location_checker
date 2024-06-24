@@ -54,8 +54,7 @@ const Task1 = () => {
   return (
     <div className="task__1">
       <div className="container">
-        <h1 className="task__title">Task 1</h1>
-        <p className="task__description">
+        <p className="task__title">
           json fayldagi kmlCoordList fieldidan kordinatalarni olgan holda trackni chizish va trackning Start va Finish pointlarini alohida ajratib
           ko’rsatish. parkingPins fieldidan track davomida qoldirilgan parking pointslani ko’rsatish
         </p>
